@@ -1,0 +1,58 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+}
+
+hr{
+   color: black;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+article {
+    flex: 1;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(223, 210, 183);
+    text-align: center;
+}
+
+article:nth-child(2) {
+    flex: 2;
+}
+
+#tablero {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50vh;
+   
+   
+}
+
+#tablero div {
+    border: solid 1px;
+    padding: 5px;
+}
+
+table{
+    margin: auto;
+}
+
+tr:nth-child(even){
+    background-color: rgb(201, 190, 190);
+}
+
+#espacio{
+    margin-bottom: 3em;
+}
